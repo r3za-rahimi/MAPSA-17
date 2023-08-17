@@ -1,6 +1,6 @@
 package com.mapsa.session02;
 
-public class OverLoadings {
+public class Overloadings {
 
     int x ;
     int y;
