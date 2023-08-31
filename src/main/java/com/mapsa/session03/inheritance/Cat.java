@@ -6,6 +6,7 @@ public class Cat extends Animal{
 
     public Cat(String tailColor) {
         this.tailColor = tailColor;
+//        this.
     }
 
     public Cat(String name, int age, String tailColor) {

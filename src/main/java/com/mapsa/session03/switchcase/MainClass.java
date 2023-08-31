@@ -6,9 +6,9 @@ public class MainClass {
 
         SwitchCaseInAction sw = new SwitchCaseInAction();
 
-        Month month = sw.getMonth(2);
+//        Month month = sw.getMonth(2);
 
-        System.out.println(month);
+//        System.out.println(month);
 
 
         sw.monthWeather(Month.FEB);

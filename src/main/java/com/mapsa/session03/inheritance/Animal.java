@@ -2,8 +2,8 @@ package com.mapsa.session03.inheritance;
 
 public class Animal {
 
-    String name;
-    int age;
+    private String name;
+   private int age;
 
     public Animal() {
     }

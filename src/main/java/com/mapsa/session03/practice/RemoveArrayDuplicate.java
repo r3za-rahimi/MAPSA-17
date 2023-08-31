@@ -12,17 +12,17 @@ public class RemoveArrayDuplicate {
 
         for (int i = 0 ; i<numbers.length ; i++){
 
-            boolean isUnique = false;
+            boolean isNotUnique = false;
             for (int j = 0 ; j < unique.length ; j++ ){
 
                 if (numbers[i] == unique[j]){
 
-                    isUnique = true;
+                    isNotUnique = true;
                     break;
                 }
 
             }
-            if (!isUnique){
+            if (!isNotUnique){
                 unique[index] = numbers[i];
 //                unique[index++] = numbers[i];
                 index++;

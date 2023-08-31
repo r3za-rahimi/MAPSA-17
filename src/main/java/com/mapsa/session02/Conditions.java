@@ -6,14 +6,25 @@ public class Conditions {
     public void checkNumber(int number){
 
 
-        if (number > 50){
+        if (number < 20){
 
-            System.out.println("عدد بزرگتر از 50");
+           method1(number);
+        }else if(number == 50){
+
+            System.out.println("your number is 50");
+
         }else {
-
-            System.out.println("your number less than 50");
-//        }else if (number == 65){
-//
+            method2(number);
         }
+    }
+
+    public void method1(int number){
+
+        System.out.println(number * 3);
+    }
+
+    public void method2(int number){
+
+        System.out.println(number *5);
     }
 }
